@@ -10,8 +10,6 @@ public class Merging {
         
         System.out.print("enter size of array 2: ");
         int m = sc.nextInt();
-
-        int a = n + m;
         
         int[] arr = new int[n];
         int[] arr1 = new int[m];
@@ -43,8 +41,5 @@ public class Merging {
             System.out.print(arr2[i] + " ");
         }
         System.out.println();
-        // System.out.println(arr.length);
-        // System.out.println(arr1.length);
-        // System.out.println(arr2.length);
     }
 }
