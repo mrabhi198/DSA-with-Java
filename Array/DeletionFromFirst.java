@@ -33,7 +33,7 @@ public class DeletionFromFirst {
             arr1[i] = arr[i + 1];
         }
 
-        // System.out.println(arr1.length);
+        //traversing new array
         System.out.print("new array: ");
         for (int i = 0; i < arr1.length; i++){
             System.out.print(arr1[i] + " ");
